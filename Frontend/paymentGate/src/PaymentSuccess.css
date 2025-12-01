@@ -1,0 +1,34 @@
+/* Full screen center container */
+.payment-container {
+  min-height: 100vh;
+  background-color: #f3f4f6; /* Light gray */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* Content box */
+.payment-box {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Title */
+.payment-title {
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+
+/* Reference text */
+.payment-reference {
+  font-size: 18px;
+}
+
+.payment-reference span {
+  font-weight: 600;
+}

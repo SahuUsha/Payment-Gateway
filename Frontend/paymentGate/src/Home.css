@@ -1,0 +1,23 @@
+/* Full page container */
+.home-container {
+  min-height: 100vh;
+  background-color: #f3f4f6; /* light gray */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* Card layout wrapper */
+.cards-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+/* For larger screens */
+@media (min-width: 768px) {
+  .cards-wrapper {
+    flex-direction: row;
+  }
+}
